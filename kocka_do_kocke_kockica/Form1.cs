@@ -41,10 +41,10 @@ namespace kocka_do_kocke_kockica
             g.DrawRectangle(Pens.Magenta, x_pravugaonika, y_pravugaonika, stranica_a, stranica_b);
 
             //crtamo glavnu dijagonalu
-            g.DrawLine(Pens.Cyan, x_pravugaonika, y_pravugaonika, x_pravugaonika + stranica_a, y_pravugaonika + stranica_b);
+            //g.DrawLine(Pens.Cyan, x_pravugaonika, y_pravugaonika, x_pravugaonika + stranica_a, y_pravugaonika + stranica_b);
 
             //crtamo sporednu dijagonalu
-            g.DrawLine(Pens.Yellow, x_pravugaonika + stranica_a, y_pravugaonika, x_pravugaonika, y_pravugaonika + stranica_b);
+            //g.DrawLine(Pens.Yellow, x_pravugaonika + stranica_a, y_pravugaonika, x_pravugaonika, y_pravugaonika + stranica_b);
         }
 
         private void Form1_Load(object sender, EventArgs e)
